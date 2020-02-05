@@ -213,7 +213,7 @@ def addUser(user, pswd, conf):
     return False
 
 if __name__ == "__main__":
-  app.debug = True
+  app.debug = False
   app.run(host='64.227.86.13')
 
 db.close()
